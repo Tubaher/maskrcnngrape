@@ -26,10 +26,10 @@ Para ejecutar este proyecto necesitas:
 	- O solicite a Jerges Ricardo un buen video para testear la deteccion.
 
 Finalmente desde la raiz del git (consola):
-    '''
+    
     cd samples/uvas
 	python splash_uvas.py --weights=../../mask_rcnn_uvas_0029.h5 --video=../../videos/DJI_0211.MOV
-    '''
+    
 (reze y espera la magia)
 ---
 
