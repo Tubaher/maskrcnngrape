@@ -5,6 +5,8 @@ logs/
 results/
 temp/
 test/
+pretrained_weights/
+test_videos/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

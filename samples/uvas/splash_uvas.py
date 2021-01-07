@@ -312,7 +312,8 @@ def detect_and_color_splash(model, image_path=None, video_path=None, connection=
                     outputs_red = deepsort_red.update(bbox_xywh_red, cls_conf_red, splash)
                     if len(outputs_red) > 0:
                         bbox_xyxy_red = outputs_red[:, :4]
-                    insert_list    identities_red = outputs_red[:, -1]
+                    #insert_list    identities_red = outputs_red[:, -1]
+                        identities_red = outputs_red[:, -1]
                         splash = draw_boxes(splash, bbox_xyxy_red, identities_red, class_label="Uva")
 
                         
@@ -396,7 +397,7 @@ if __name__ == '__main__':
         # one image at a time. Batch size = GPU_COUNT * IMAGES_PER_GPU
         GPU_COUNT = 1
         # this number was originally 1
-        IMAGES_PER_GPU = 8
+        IMAGES_PER_GPU = 1
     config = InferenceConfig()
     config.display()
 
