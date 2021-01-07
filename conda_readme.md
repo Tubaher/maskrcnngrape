@@ -45,4 +45,4 @@ Encontrados hasta ahora y con soluciones, sientase libre de añadir nuevos siemp
 2. (issues) Nota: tomar en cuenta que funcione este repositorio. Las librerias de cuda toolkit deben 10.0 y el cudnn > 7.5
 
 3. Para entrenar las configuraciones del modelo se puede utilizar todas las GPUS disponibles cambiando el valor de
-`IMAGES_PER_GPU`. Sin embargo para correr la inferencia se recomienda una sola GPU `IMAGES_PER_GPU=1` en  InferenceConfig del archivo splash_uvas.py.
+`IMAGES_PER_GPU`. Sin embargo para correr la inferencia se recomienda una sola GPU `IMAGES_PER_GPU=1` en  InferenceConfig del archivo [splash_uvas.py](samples/uvas/splash_uvas.py).
